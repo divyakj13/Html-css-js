@@ -1,7 +1,7 @@
 var promise = new Promise(function(resolve, reject) {
-    const string1 = "maha";
+    const string1 = "Divya";
 
-    if(string1 === "maha") {
+    if(string1 === "Divya") {
         resolve();
     } else {
         reject();
@@ -9,9 +9,9 @@ var promise = new Promise(function(resolve, reject) {
     });
     
     promise.then(function () {
-            console.log('Success!!!!!!!!!!!!!!!!!');
+            console.log('Success');
         }).
         catch(function () {
-            console.log('Error has occurred');
+            console.log('Error');
         });
     
